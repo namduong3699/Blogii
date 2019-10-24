@@ -1,0 +1,1 @@
+Hello {{$name}}!! Click this link to reset your password {{URL::to('resetPassword?token='.$token)}}
